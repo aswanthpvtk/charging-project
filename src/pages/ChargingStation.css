@@ -1,0 +1,60 @@
+/* ChargingStation.css */
+.charging-station-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .machine-container {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-around; /* Even space between machines */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    margin-top: 20px;
+  }
+  
+  .charging-machine {
+    flex: 1; /* Allow machines to grow equally */
+    margin: 15px; /* Margin around each machine */
+    padding: 15px; /* Padding inside each machine */
+    border: 1px solid #ddd; /* Border for machine container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Background color for machine */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 400px; /* Max width for each machine */
+  }
+  
+  .slot-buttons {
+    display: grid; /* CSS grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for Machine 1 */
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px; /* Margin above buttons */
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #28a745; /* Bootstrap success color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
+  .vertical-line {
+    width: 2px; /* Thickness of the line */
+    height: 100%; /* Full height of the parent container */
+    background-color: #230e0e; /* Color of the line (black) */
+    margin: 0 20px; /* Horizontal spacing around the line */
+  }
+  

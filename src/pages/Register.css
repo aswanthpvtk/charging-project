@@ -1,0 +1,17 @@
+.position-relative {
+    position: relative;
+  }
+  
+  .input-with-icon {
+    padding-left: 30px; /* Adjust padding to make space for the icon */
+  }
+  
+  .icon-style {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Positioning inside the input field */
+    transform: translateY(-50%);
+    color: #999; /* Optional: change icon color */
+    pointer-events: none; /* Ensures the icon doesn't interfere with input clicks */
+  }
+  
